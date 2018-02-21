@@ -1,0 +1,17 @@
+{
+  "name": "gen-node-server",
+  "version": "1.0.0",
+  "description": "Generate various node servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gen-node-server": "index.js"
+  },
+  "author": "Jordan Braginton",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
