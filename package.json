@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "fs-extra": "^5.0.0"
+  },
+  "dependencies": {
+    "nodemailer": "^4.6.0"
   }
 }

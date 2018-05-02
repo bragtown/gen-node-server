@@ -1,5 +1,7 @@
 let generator = require('./generator');
-
 let userArgs = process.argv.slice(2);
-generator.generate(userArgs[0], userArgs[1]);
+let projectName = userArgs[1];
+let projectType = userArgs[0];
+
+generator.generate(projectName, projectType);
 
